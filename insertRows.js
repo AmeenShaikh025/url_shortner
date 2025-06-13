@@ -3,7 +3,7 @@ const sql = require('mssql/msnodesqlv8');
 // Database configuration object for connecting to SQL Server
 const config = {
     // Connection string specifying driver, server, database, and authentication details
-    connectionString: "Driver={ODBC Driver 18 for SQL Server};Server=DESKTOP-5CQBVRM;Database=URL;Trusted_Connection=Yes;TrustServerCertificate=Yes;",
+    connectionString: "Driver={ODBC Driver 18 for SQL Server};Server=DESKTOP-*******;Database=URL;Trusted_Connection=Yes;TrustServerCertificate=Yes;",
     options: {
         // Option to trust the server certificate (useful for development or self-signed certs)
         trustServerCertificate: true
