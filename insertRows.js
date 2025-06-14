@@ -6,7 +6,8 @@ const config = {
     connectionString: "Driver={ODBC Driver 18 for SQL Server};Server=DESKTOP-5CQBVRM;Database=URL;Trusted_Connection=Yes;TrustServerCertificate=Yes;",
     options: {
         // Option to trust the server certificate (useful for development or self-signed certs)
-        trustServerCertificate: true
+        trustServerCertificate: true,
+        requestTimeout: 300000 // 300,000 ms = 5 minutes
     }
 };
 
