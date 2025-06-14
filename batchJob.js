@@ -32,7 +32,7 @@ async function insertRows() {
     }
 
     console.timeEnd('InsertTime');
-    console.log('Finished inserting 1,000,000 rows.');
+    console.log('Finished inserting 10,000,000 rows.');
   } catch (err) {
     console.error('Error:', err);
   } finally {
