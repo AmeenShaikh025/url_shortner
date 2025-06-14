@@ -14,7 +14,7 @@ const config = {
     This is bad solution.
     
     Solution:
-        1: Batch Query Many short_codes at Once.
+        1: Batch Query Many short_codes at Once. [IN operator SQL]
         2: Use a stored procedure to simulate 1M reads server-side
         3: Add or Increase Global Timeout [Not feasible for 1M reads]
 
